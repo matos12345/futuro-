@@ -1,42 +1,45 @@
-header{
-background-color: aqua;
-color: black;
+*{
+     margin: 0;
+     padding: 0;
 }
 
+.cabeçalho{
+    background-color: aqua;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+.imagem-principal{
+    width: 30%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-imagem-whatts{
+ .lista-principal{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+ }
+ .futuro{
+    background-color: cyan;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+.div-conteudo{
+    width: 35%;
+}
+.titulo{
+    padding: 24px 0;
+}
+.imagem-do-futuro{
+    width: 20%;
+}
+.imagem-whatts{
+    width: 20%;
+}
+.imagem-insta{
     width: 20%;
 }
